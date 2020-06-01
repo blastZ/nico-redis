@@ -1,0 +1,22 @@
+{
+  "name": "@blastz/nico-redis",
+  "version": "0.1.0",
+  "description": "",
+  "main": "dist/index.js",
+  "scripts": {
+    "tsc": "tsc",
+    "push": "npm run tsc && npm publish --access public --registry=https://registry.npmjs.org"
+  },
+  "author": "blastz",
+  "license": "MIT",
+  "dependencies": {
+    "@types/ioredis": "^4.16.3",
+    "ioredis": "^4.17.3"
+  },
+  "devDependencies": {
+    "typescript": "^3.9.3"
+  },
+  "files": [
+    "dist/**/*"
+  ]
+}
